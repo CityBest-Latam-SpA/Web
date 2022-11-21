@@ -1,0 +1,132 @@
+.containerSliderPrensa {
+  top: 100px;
+  background-color: #441a7b;
+  > div > div > div > div > div > div {
+    section {
+      position: relative;
+      width: 100%;
+      background-color: white;      
+      div {
+        position: absolute;        
+        top: 60%;
+        left: 0%;
+        width: 100%;
+        background-color: #441a7b;
+        color: white;
+        padding: 1rem 10%;
+        font-size: 1.5rem;
+        h5 {
+          font-size: 1rem;
+          color: white;
+        }
+        h6 {
+          margin-top: 1rem;
+          color: #36de94;
+        }        
+      }
+    }
+  }
+
+  .active {
+    color: red !important;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    background-color: white;
+    padding-top: 3rem;
+  }
+  .cardsTitle {
+    width: 100%;    
+    background-color: #441a7b;    
+    h1 {
+      margin: 0px;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  }
+  .pagination {
+    text-align: center;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 1220px) {
+  .containerSliderPrensa {
+    .card {
+      grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .containerSliderPrensa {
+    .card {
+      grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .containerSliderPrensa {
+    > div > div > div > div > div > div {
+      section {
+        div {
+          top: 50%;
+        }
+        span {
+          font-size: 1rem;
+        }
+        h5 {
+          font-size: 1rem;
+        }
+        h6 {
+          margin-top: 0.7rem;
+        }
+      }
+    }
+    .card {
+      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+      padding: 0 3%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .containerSliderPrensa {
+    .sectionImgCity {
+      margin-top: 9.5rem !important;
+    }
+    .cardsTitle {
+      margin-top: 0rem;
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .containerSliderPrensa {
+    .card {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .containerSliderPrensa {
+    .sectionImgCity {
+      margin-top: 11.6rem !important;
+      height: 270px;
+      div {
+        padding: 0rem 5%;      
+        padding-bottom: 0.5rem;
+      }
+    }
+    .cardsTitle {
+      margin-top: 0rem;
+    }
+  }
+}

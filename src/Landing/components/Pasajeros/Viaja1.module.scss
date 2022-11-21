@@ -1,0 +1,142 @@
+.containerViaja1 {
+  background-color: #441a7b;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  section:nth-child(1) {
+    flex-basis: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 3rem;
+    p {
+      color: white;
+    }
+    .title {
+      font-size: 3rem;
+      margin: 0px;
+      margin-bottom: 1rem;
+    }
+    .infoApp {
+      font-weight: bolder;
+    }
+    .buttonApp {
+      margin-top: 2rem;
+      a {
+        background-color: rgba(118, 211, 137, 1);
+        border-radius: 30px;
+        padding: 10px 25px;
+        color: #441a7b;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        &:hover {
+          color: white;
+          box-shadow: 0px 0px 5px #ccc;
+        }
+      }
+    }
+  }
+  section:nth-child(2) {
+    flex-basis: 40%;
+    figure {
+      margin: 0px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .containerViaja1 {
+    flex-flow: column nowrap;
+    section:nth-child(1) {
+      order: 2;
+      text-align: center;
+      padding: 2.7rem;
+      padding-top: 0px;
+      .title {
+        font-size: 2rem;
+      }
+      .buttonApp {
+        margin-bottom: 2rem;
+      }
+    }
+    section:nth-child(2) {
+      order: 1;
+      figure {
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .containerViaja1 {
+    section:nth-child(1) {
+      padding: 1rem;
+      padding-top: 0px;
+      .title {
+        font-size: 2rem;
+      }
+      p:not(.title, .buttonApp) {
+        text-align: justify;
+      }
+    }
+  }
+}
+
+// ======== ESTILOS ANTIGUOS =======
+// .containerViaja1 {
+//   width: 100%;
+//   background-color: #441a7b;
+//   display: flex;
+//   flex-flow: row wrap;
+//   padding: 3rem 0;
+//   div {
+//     margin-left: 2rem;
+//     h1,
+//     h3 {
+//       color: white;
+//     }
+//     h1 {
+//       font-size: 2rem;
+//       font-weight: bold;
+//     }
+//     h3 {
+//       font-size: 1.2rem;
+//     }
+//     section {
+//       margin-top: 1.8rem;
+//       display: flex;
+//       flex-flow: row wrap;
+//       justify-content: flex-start;
+//       width: 100%;
+//       .linea {
+//         margin: 0px;
+//         padding: 0px;
+//         width: 90px;
+//         height: 20px;
+//         background-color: white;
+//         border-radius: 100px;
+//       }
+//       .linea:nth-child(2) {
+//         margin: 0 1rem;
+//       }
+//     }
+//     .paises {
+//       margin-left: 0px;
+//       margin-top: 2rem;
+//       img:nth-child(2) {
+//         margin: 0px 1rem;
+//       }
+//       img:nth-child(4) {
+//         margin-left: 1rem;
+//       }
+//     }
+//   }
+// }

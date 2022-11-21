@@ -1,0 +1,25 @@
+.buttonUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  background-color: black;
+  border: 1px solid #36de94;
+  cursor: pointer;
+  transition: all 300ms;
+  &:hover {
+    background-color: white;
+    border: 1px solid black;
+  }
+  .iconUp {
+    color: #36de94;
+    font-size: 3.5rem;
+    transition: all 300ms;
+    &:hover {
+      color: black;
+    }
+  }
+}

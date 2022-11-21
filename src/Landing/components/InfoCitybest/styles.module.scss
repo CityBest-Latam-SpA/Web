@@ -1,0 +1,71 @@
+.containerInfo {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  background-color: white;
+  padding: 2rem 0px;
+  figure {
+    margin: 0px;
+  }
+  .aquiEmpieza {
+    margin: 0px auto;
+    text-align: center;
+    img {
+      width: 50%;
+    }
+  }
+  .sections {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(23%, 1fr));
+    gap: 10px;
+    margin: 0px auto;
+    margin-top: 15px;
+    @media screen and (max-width: 900px) {
+      grid-template-columns: repeat(auto-fill, minmax(46%, 1fr));
+    }
+    @media screen and (max-width: 600px) {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+    > div > figure {
+      transition: all 300ms;
+    }
+    > div > figure:hover {
+      transform: scale(1.05);
+    }
+    .thirdSection {
+      figure {
+        img {
+          width: 99.5%;
+        }
+      }
+    }
+    .fourthSection {
+      figure {
+        img {
+          width: 105%;
+        }
+      }
+    }
+    div {
+      width: 90%;
+      margin: 0px auto;
+      img {
+        width: 100%;
+      }
+    }
+    .titles {
+      margin-top: 1rem;
+      strong {
+        font-size: 1.3rem;
+        @media screen and (max-width: 500px) {
+          font-size: 1rem;
+        }
+        img {
+          width: 35px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}

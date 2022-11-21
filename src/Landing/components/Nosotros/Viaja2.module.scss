@@ -1,0 +1,40 @@
+.containerViaja2 {
+  background-color: white;
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  .sectionFeatures {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    transition: all 500ms;
+    h4 {
+      text-align: center;
+      margin: 1rem 0;
+      font-weight: bold;
+    }
+    img {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  .sectionFeatures:hover {
+    border-bottom: 3px solid rgba(68, 26, 123, 1);
+  }
+}
+
+@media (max-width: 727px) {
+  .containerViaja2 {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)) !important;
+  }
+}
+
+// @media (max-width: 970px) {
+//   .containerViaja2 {
+//     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+//   }
+// }

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", "Arial";
+}
+
+html {
+  background: #441a7b;
+}
+
+body {
+  font-family: Overpass, sans-serif !important;
+}
+
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #ccc; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #441a7b; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 3px solid #441a7b;
+}
+
+.ant-pagination-item:hover {
+  border: 1px solid #441a7b !important;
+}
+
+.ant-pagination-item-active {
+  border: 1px solid #441a7b !important;
+}
+
+.ant-pagination-item-link:hover {
+  border: 1px solid #441a7b !important;
+}
+
+.ant-pagination-item-link svg {
+  color: black !important;
+}
+
+.ant-pagination-item-link:hover svg {
+  color: #441a7b !important;
+}
+
+.ant-pagination-options-quick-jumper input:hover,
+.ant-pagination-options-quick-jumper input:focus {
+  border: 1px solid #441a7b !important;
+  box-shadow: none !important;
+  text-align: center;
+}

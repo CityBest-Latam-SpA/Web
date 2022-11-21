@@ -1,0 +1,79 @@
+.containerSliderConductores {
+  top: 100px;
+  margin-top: 189px;
+  figure {
+    margin: 0px;
+  }
+  > div > div > div > div > div > div {
+    section {
+      position: relative;
+      width: 100%;
+      section {
+        position: absolute;
+        width: 70%;
+        height: 48.5%;
+        top: 51.5%;
+        left: 15%;
+        div:nth-child(1) {
+          position: relative;
+          height: 100%;
+          img:nth-child(1) {
+            position: absolute;
+            top: -3%;
+            left: 16%;
+          }
+          img:nth-child(2) {
+            position: absolute;
+            top: 17.8%;
+            left: 8%;
+          }
+          img:nth-child(3) {
+            position: absolute;
+            top: 30%;
+            left: 48%;
+          }
+          img:nth-child(4) {
+            position: absolute;
+            top: 65%;
+            left: 110%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 471px) {
+  .containerSliderConductores {
+    top: 100px;
+    margin-top: 152px;
+  }
+}
+
+@media screen and (min-width: 599px) {
+  .containerSliderConductores {
+    top: 100px;
+    margin-top: 127px;
+  }
+}
+
+@media screen and (min-width: 894px) {
+  .containerSliderConductores {
+    top: 100px;
+    margin-top: 187px;
+  }
+}
+
+@media screen and (min-width: 1075px) {
+  .containerSliderConductores {
+    top: 100px;
+    margin-top: 187px;
+  }
+}
+
+@media screen and (min-width: 1085px) {
+  .containerSliderConductores {
+    top: 100px;
+    margin-top: 152px;
+  }
+}
