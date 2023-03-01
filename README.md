@@ -7,3 +7,4 @@ yarn
 Para levantar la pagina web
 
 yarn dev
+# Web
