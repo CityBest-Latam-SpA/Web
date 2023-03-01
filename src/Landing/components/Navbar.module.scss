@@ -19,9 +19,9 @@
     flex-basis: 60%;
     flex-flow: row wrap;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 5px;
     @media screen and (max-width: 1223px) {
-      padding-top: 0px;
+      padding-top: 0.5px;
     }
     .logoCitybest {
       display: none;
@@ -55,6 +55,33 @@
       span {
         font-size: 1rem;
         margin: 0 5px;
+      }
+    }
+    .payulogo {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      span {
+        font-size: 1rem;
+        margin: 0 5px;
+      }
+    }
+    .mglogo {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      margin: 0 1rem;
+      span {
+        cursor: pointer;
+      }
+    }
+    .bydlogo {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      margin: 0 1rem;
+      span {
+        cursor: pointer;
       }
     }
     .vehiculoElectrico {
@@ -282,7 +309,7 @@
       .honor,
       .jac,
       .electron {
-        padding-top: 1rem;
+        padding-top: 0.5rem;
       }
     }
     .secondSection {
