@@ -46,7 +46,7 @@
         margin: 0 7px;
       }
     }
-    .fpay {
+    /*.fpay {
       margin: 0 1rem;
     }
     .honor {
@@ -56,21 +56,21 @@
         font-size: 1rem;
         margin: 0 5px;
       }
-    }
+    }*/
     .payulogo {
       display: flex;
       flex-flow: row wrap;
       align-items: center;
       span {
         font-size: 1rem;
-        margin: 0 5px;
+        margin: 2 5px;
       }
     }
     .mglogo {
       display: flex;
       flex-flow: row wrap;
       align-items: center;
-      margin: 0 1rem;
+      margin: 2 1rem;
       span {
         cursor: pointer;
       }
@@ -79,7 +79,7 @@
       display: flex;
       flex-flow: row wrap;
       align-items: center;
-      margin: 0 1rem;
+      margin: 2 1rem;
       span {
         cursor: pointer;
       }
