@@ -3,13 +3,14 @@ import novotel from "../../../assets/home/honor_novotel.jpg";
 import cel1 from "../../../assets/home/cel1.png";
 import cel2 from "../../../assets/home/cel2.png";
 import cel3 from "../../../assets/home/cel3.png";
+import hiltonviaje from "../../../assets/home/hilton_viaje.jpg";
 
 export const Novotel = () => {
   return (
     <div className={styles.containerNovotel}>
       <section className={styles.firstSection}>
         <figure>
-          <img src={novotel} alt="novotel" />
+          <img src={hiltonviaje} alt="hiltonviaje" />
         </figure>
         <div className={styles.generalInfo}>
           <h1>

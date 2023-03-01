@@ -1,9 +1,9 @@
 import styles from "./styles.module.scss";
 import info from "../../../assets/home/aquiEmpieza.png";
 import info1 from "../../../assets/img/info1.png";
-import info2 from "../../../assets/img/info2.jpg";
-import info3 from "../../../assets/img/info3.png";
-import info4 from "../../../assets/img/info4.png";
+import info2 from "../../../assets/img/info02.jpg";
+import info3 from "../../../assets/img/info03.jpg";
+import info4 from "../../../assets/img/info05.jpg";
 import hojas from "../../../assets/home/hojas.svg";
 
 export const InfoCitybest = () => {

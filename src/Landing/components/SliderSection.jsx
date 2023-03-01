@@ -1,9 +1,14 @@
 import { Carousel } from "antd";
 import styles from "./Slider.module.scss";
-import slider1 from "../../assets/home/COMUNICACION_BEV.webp";
-import slider2 from "../../assets/home/COMUNICACION_NOVOTEL.webp";
-import slider3 from "../../assets/home/COMUNICACION_RESTO.webp";
-import slider4 from "../../assets/home/COMUNICACION_WINE.webp";
+import slider1_o from "../../assets/home/COMUNICACION_BEV.webp";
+import slider2_o from "../../assets/home/COMUNICACION_NOVOTEL.webp";
+import slider3_o from "../../assets/home/COMUNICACION_RESTO.webp";
+import slider4_o from "../../assets/home/COMUNICACION_WINE.webp";
+
+import slider1 from "../../assets/home/COMUNICACION_1.png";
+import slider2 from "../../assets/home/COMUNICACION_2.png";
+import slider3 from "../../assets/home/COMUNICACION_3.png";
+import slider4 from "../../assets/home/COMUNICACION_4.png";
 
 const contentStyle = {
   // minHeight: "35vh",
@@ -29,6 +34,7 @@ export const SliderSection = () => {
           <img width={"100%"} src={slider4} alt="" />
         </div>
       </Carousel>
+      <br></br>
     </div>
   );
 };

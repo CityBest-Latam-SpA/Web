@@ -37,7 +37,7 @@ export const Navbar = ({ navbarMemo }) => {
     navbarMemo,
     setOpen,
     currentFlag
-  );  
+  );
 
   const onChangePaises = () => {
     setViewPaises(!viewPaises);
@@ -82,12 +82,12 @@ export const Navbar = ({ navbarMemo }) => {
               <img width={"95px"} src={mp} alt="mp" />
             </a>
           </figure>
-        </div>*/}
-        {/* <div className={styles.fpay}>
+        </div>
+         <div className={styles.fpay}>
           <figure>
             <img src={fpay} width={"60px"} alt="" />
           </figure>
-        </div> */}
+    </div>*/}
         <div className={styles.payulogo}>
           <span></span>
           <figure>
@@ -166,10 +166,7 @@ export const Navbar = ({ navbarMemo }) => {
         <div className={styles.imgLogoCityBest}>
           <figure>
             <Link to="/">
-              <img
-                src={logoCityBest}
-                alt=""                
-              />
+              <img src={logoCityBest} alt="" />
             </Link>
           </figure>
         </div>
@@ -195,10 +192,7 @@ export const Navbar = ({ navbarMemo }) => {
           </figure>
           <span>Atención al cliente</span>
         </div>
-        <div
-          className={styles.countries}
-          onClick={onChangePaises}          
-        >
+        <div className={styles.countries} onClick={onChangePaises}>
           {currentFlag ? (
             <span style={{ width: "3.5rem" }}>
               {currentCountry.country_name}
@@ -286,9 +280,7 @@ export const Navbar = ({ navbarMemo }) => {
         </div> */}
       </section>
 
-      <div
-        className={styles.hamburguer}        
-      >
+      <div className={styles.hamburguer}>
         <Hamburger
           direction="right"
           color="white"
