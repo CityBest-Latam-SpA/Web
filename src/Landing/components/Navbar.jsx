@@ -21,7 +21,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { countries } from "../../helpers/countries";
 import { useFlags } from "../../hooks/useFlags";
 import { initialCountry } from "../../store";
-
+import payulogo from "../../assets/img/partners/payulogo.png";
+import mglogo from "../../assets/img/partners/mglogo.png";
+import bydlogo from "../../assets/img/partners/bydlogo.png";
 
 export const Navbar = ({ navbarMemo }) => {
   const dispatch = useDispatch();
@@ -63,7 +65,7 @@ export const Navbar = ({ navbarMemo }) => {
             </Link>
           </figure>
         </div>
-        <div
+        {/*<div
           className={styles.mp}          
         >
           <figure>
@@ -80,13 +82,37 @@ export const Navbar = ({ navbarMemo }) => {
               <img width={"95px"} src={mp} alt="mp" />
             </a>
           </figure>
-        </div>
+        </div>*/}
         {/* <div className={styles.fpay}>
           <figure>
             <img src={fpay} width={"60px"} alt="" />
           </figure>
         </div> */}
-        <div className={styles.honor}>
+        <div className={styles.payulogo}>
+          <span></span>
+          <figure>
+            <a href="https://peru.payu.com" target="_blank">
+              <img src={payulogo} width={"58px"} alt="" />
+            </a>
+          </figure>
+        </div>
+        <div className={styles.mglogo}>
+          <span></span>
+          <figure>
+            <a href="https://mgmotor.pe" target="_blank">
+              <img src={mglogo} width={"58px"} alt="" />
+            </a>
+          </figure>
+        </div>
+        <div className={styles.bydlogo}>
+          <span></span>
+          <figure>
+            <a href="https://www.byd.com.pe" target="_blank">
+              <img src={bydlogo} width={"58px"} alt="" />
+            </a>
+          </figure>
+        </div>
+        {/*<div className={styles.honor}>
           <figure className={styles.smartphoneImage}>
             <img src={smartphone} width={"14px"} alt="" />
           </figure>
@@ -96,8 +122,8 @@ export const Navbar = ({ navbarMemo }) => {
               <img src={honorlogo} width={"58px"} alt="" />
             </a>
           </figure>
-        </div>
-        <div className={styles.vehiculoElectrico}>
+        </div>*/}
+        {/*<div className={styles.vehiculoElectrico}>
           <figure className={styles.vehiculoImage}>
             <img
               className={styles.img}
@@ -119,8 +145,8 @@ export const Navbar = ({ navbarMemo }) => {
               />
             </a>
           </figure>
-        </div>
-        <div className={styles.electron}>
+        </div>*/}
+        {/*<div className={styles.electron}>
           <figure>
             <a href="https://electronmotors.pe/" target="_blank">
               <img
@@ -131,7 +157,7 @@ export const Navbar = ({ navbarMemo }) => {
               />
             </a>
           </figure>
-        </div>
+      </div>*/}
       </section>
       <section
         className={styles.secondSection}
