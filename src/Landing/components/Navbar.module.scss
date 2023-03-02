@@ -63,7 +63,7 @@
       align-items: center;
       span {
         font-size: 1rem;
-        margin: 2 5px;
+        margin: 0 6px;
       }
     }
     .mglogo {
@@ -76,6 +76,24 @@
       }
     }
     .bydlogo {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      margin: 2 1rem;
+      span {
+        cursor: pointer;
+      }
+    }
+    .fordlogo {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      margin: 6 3rem;
+      span {
+        cursor: pointer;
+      }
+    }
+    .mustanglogo {
       display: flex;
       flex-flow: row wrap;
       align-items: center;

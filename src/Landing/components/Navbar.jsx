@@ -24,6 +24,8 @@ import { initialCountry } from "../../store";
 import payulogo from "../../assets/img/partners/payulogo.png";
 import mglogo from "../../assets/img/partners/mglogo.png";
 import bydlogo from "../../assets/img/partners/bydlogo.png";
+import fordlogo from "../../assets/img/partners/fordlogo.png";
+import mustanglogo from "../../assets/img/partners/mustanglogo.png";
 
 export const Navbar = ({ navbarMemo }) => {
   const dispatch = useDispatch();
@@ -88,19 +90,30 @@ export const Navbar = ({ navbarMemo }) => {
             <img src={fpay} width={"60px"} alt="" />
           </figure>
     </div>*/}
-        <div className={styles.payulogo}>
+        <div className={styles.mustanglogo}>
           <span></span>
           <figure>
-            <a href="https://peru.payu.com" target="_blank">
-              <img src={payulogo} width={"58px"} alt="" />
+            <a
+              href="https://www.ford.mx/suv/mach-e/?searchid=alwaysonsearch:mach-e%7Cgoogle%7Cgeneral%7Crsa%7C%7Ctraffic%7C20220707&gclid=CjwKCAiAjPyfBhBMEiwAB2CCIsTNVcUY8QlRWRNdiYO6nyp5uM0Q6HlQom_vWuenpuiwlTcbS1AS5RoCaAMQAvD_BwE"
+              target="_blank"
+            >
+              <img src={mustanglogo} width={"53px"} alt="" />
+            </a>
+          </figure>
+        </div>
+        <div className={styles.fordlogo}>
+          <span></span>
+          <figure>
+            <a href="https://www.fordgimsa.mx/" target="_blank">
+              <img src={fordlogo} width={"45px"} alt="" />
             </a>
           </figure>
         </div>
         <div className={styles.mglogo}>
           <span></span>
           <figure>
-            <a href="https://mgmotor.pe" target="_blank">
-              <img src={mglogo} width={"58px"} alt="" />
+            <a href="https://mgmotor.cl" target="_blank">
+              <img src={mglogo} width={"40px"} alt="" />
             </a>
           </figure>
         </div>
@@ -108,7 +121,15 @@ export const Navbar = ({ navbarMemo }) => {
           <span></span>
           <figure>
             <a href="https://www.byd.com.pe" target="_blank">
-              <img src={bydlogo} width={"58px"} alt="" />
+              <img src={bydlogo} width={"40px"} alt="" />
+            </a>
+          </figure>
+        </div>
+        <div className={styles.payulogo}>
+          <span></span>
+          <figure>
+            <a href="https://peru.payu.com" target="_blank">
+              <img src={payulogo} width={"40px"} alt="" />
             </a>
           </figure>
         </div>
@@ -178,7 +199,7 @@ export const Navbar = ({ navbarMemo }) => {
           <span
             onClick={() => {
               window.open(
-                "https://api.whatsapp.com/send?phone=56994179310&text=Necesito%20informaci%C3%B3n",
+                "https://api.whatsapp.com/send?phone=51916397125&text=Necesito%20informaci%C3%B3n",
                 "_blank"
               );
             }}
